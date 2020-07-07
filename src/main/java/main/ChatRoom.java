@@ -1,5 +1,12 @@
 package main;
 
+import java.beans.XMLDecoder;
+import java.beans.XMLEncoder;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -97,9 +104,51 @@ public class ChatRoom {
 			}
 	  	}
 	}
+//XML Saving and loading
+	// encode to XML file
+		public void encodeToXML(String fileName)
+		{
+			final String SERIALIZED_FILE_NAME = fileName;
+
+			XMLEncoder encoder = null;
+			try
+			{
+				encoder = new XMLEncoder(new BufferedOutputStream(new FileOutputStream(SERIALIZED_FILE_NAME)));
+			} 
+			catch (NullPointerException | FileNotFoundException fileNotFound)
+			{
+				System.err.println("ERROR: While Creating or Opening the File");
+			}
+			encoder.writeObject(this);
+			encoder.close();
+		}
+
+		// decode from a XML file
+		public static ChatRoom decodeFromXML(String fileName) //Static meaning call from the object or class to make the object or class.
+		{
+
+			final String SERIALIZED_FILE_NAME = fileName;
+			XMLDecoder decoder = null;
+			try
+			{
+				decoder = new XMLDecoder(new BufferedInputStream(new FileInputStream(SERIALIZED_FILE_NAME)));
+			} 
+			catch (NullPointerException | FileNotFoundException e)
+			{
+				System.out.println("ERROR: File not found");
+			}
+			ChatRoom aChatRoom = (ChatRoom) decoder.readObject();
+			//System.out.println(aChatRoom);
+			return aChatRoom;
+		}
 	
-	
-	
+// Basic toString
+	@Override
+	public String toString() {
+		return "ChatRoom [Number of messages = " + messages.size() + ", The ChatRoom Name=" + theChatRoomName + ", ChatRoomID="
+				+ theChatRoomID + ", The Username Of the Owner=" + theUsernameOfOwner + ", the date Made =" + thedate + "]";
+	}	
+			
 // Basic Getters and Setters
 	public ArrayList<Message> getMessages() {
 		return messages;

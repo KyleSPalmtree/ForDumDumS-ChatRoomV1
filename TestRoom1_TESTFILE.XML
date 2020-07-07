@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_251" class="java.beans.XMLDecoder">
+ <object class="main.ChatRoom" id="ChatRoom0">
+  <void property="messages">
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is a test comment on ChatRoom-TestRoom1 by TestPersonB</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonB</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment A on ChatRoom-TestRoom1 by TestPersonC</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonC</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment B on ChatRoom-TestRoom1 by TestPersonC</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonC</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment A on ChatRoom-TestRoom1 by TestPersonD</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonD</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment B on ChatRoom-TestRoom1 by TestPersonD</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonD</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment C on ChatRoom-TestRoom1 by TestPersonD</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonD</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment A on ChatRoom-TestRoom1 by TestPersonE</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonE</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment B on ChatRoom-TestRoom1 by TestPersonE</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonE</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment C on ChatRoom-TestRoom1 by TestPersonE</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonE</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Message">
+     <void property="theMessageContent">
+      <string>This is test comment D on ChatRoom-TestRoom1 by TestPersonE</string>
+     </void>
+     <void property="theUsername">
+      <string>TestPersonE</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594153552783</long>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="theChatRoomID">
+   <int>18380969</int>
+  </void>
+  <void property="theChatRoomName">
+   <string>TestRoom1</string>
+  </void>
+  <void property="theUsernameOfOwner">
+   <string>TestPersonA</string>
+  </void>
+  <void property="thedate">
+   <object class="java.util.Date">
+    <long>1594153552778</long>
+   </object>
+  </void>
+ </object>
+</java>

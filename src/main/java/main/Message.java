@@ -4,12 +4,12 @@ import java.util.Date;
 
 public class Message {
 
-	//Variables
+//Variables
 	private Date thedate = null;
 	private String theUsername = "";
 	private String theMessageContent = "";
 	
-	//Constructor Blank
+//Constructor Blank
 	public Message()
 	{
 		thedate = java.util.Calendar.getInstance().getTime();
@@ -17,7 +17,7 @@ public class Message {
 		theUsername = "default";
 	}
 	
-	//Constructor Full
+//Constructor Full
 	public Message(String aUsername, String aMessageContent)
 	{
 		thedate = java.util.Calendar.getInstance().getTime();
@@ -25,18 +25,13 @@ public class Message {
 		theUsername = aUsername;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	// Basic Getters and Setters
+// Basic toString	
+	@Override
+	public String toString() {
+		return "Message [thedate=" + thedate + ", theUsername=" + theUsername + ", theMessageContent="
+				+ theMessageContent + "]";
+	}	
+// Basic Getters and Setters
 	public Date getThedate() {
 		return thedate;
 	}
