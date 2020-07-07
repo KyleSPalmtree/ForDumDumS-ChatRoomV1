@@ -51,20 +51,24 @@ public class ChatRoom {
 	//get unwanted messages by it's text
 	public Message getMessageByText(String text) 
 	{
-			Message ans = new Message();
+			Message ans = new Message(); // just sending us this
 			
 			//goes thought
-			for(int i = messages.size(); i == 0; i--) // Goes by every messages starting with the most recent
+			
+			for(int i = messages.size(); i > 0; i--) // Goes by every messages starting with the most recent
 			//== is to check if to values are equal where as = is to set to values to be equal
 			//i -- is to subtract 1 from the Variable i
 			//i (in this case will go down with every passed message)
 			{
+				//for(var,run as long as,var changer)
+				
 				// Will activate when the message content matches the text entered
 				if(messages.get(i - 1).getTheMessageContent().matches(text)) 
 				//Must use the method .matches() (from array library) when it comes to String, '==' wont work.
 				{ 
 					ans = messages.get(i - 1); // return comment, works because i -1 is the index of the comment we are looking for.
 				}
+				
 		  	}
 			
 			return ans;
@@ -80,7 +84,7 @@ public class ChatRoom {
 	public void removeMessageByText(String text) 
 	{
 		//goes thought
-		for(int i = messages.size(); i == 0; i--) // Goes by every messages starting with the most recent
+		for(int i = messages.size(); i > 0; i--) // Goes by every messages starting with the most recent
 		//== is to check if to values are equal where as = is to set to values to be equal
 		//i -- is to subtract 1 from the Variable i
 		//i (in this case will go down with every passed message)
