@@ -18,6 +18,7 @@ public class ChatRoom {
 	private int theChatRoomID = -1;
 	private String theUsernameOfOwner = "";
 	private Date thedate = null;
+ 	private Date lastupdate = null;
 	
 //Constructor Blank
 	public ChatRoom()
@@ -47,6 +48,9 @@ public class ChatRoom {
 		
 		//Add to list of Messages
 		messages.add(aNewMessage);	
+		lastupdate = java.util.Calendar.getInstance().getTime();
+		
+		
 	}
 	
 	//get the most recent message
@@ -85,6 +89,7 @@ public class ChatRoom {
 	public void removeMessageByindex(int index) 
 	{
 		messages.remove(index);
+		lastupdate = java.util.Calendar.getInstance().getTime();
 	}
 	
 	//remove unwanted messages by it's text
@@ -101,6 +106,7 @@ public class ChatRoom {
 			//Must use the method .matches() (from array library) when it comes to String, '==' wont work.
 			{ 
 				messages.remove(i - 1); // remove comment, works because i -1 is the index of the comment we are looking for.
+				lastupdate = java.util.Calendar.getInstance().getTime();
 			}
 	  	}
 	}
@@ -108,6 +114,7 @@ public class ChatRoom {
 	// encode to XML file
 		public void encodeToXML(String fileName)
 		{
+			//lets try something real quick
 			final String SERIALIZED_FILE_NAME = fileName;
 
 			XMLEncoder encoder = null;
