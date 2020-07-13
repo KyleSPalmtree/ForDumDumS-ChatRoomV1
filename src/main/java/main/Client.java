@@ -70,6 +70,11 @@ public class Client {
 				}	
 			}
 	  	}
+		
+		if(!ans) 
+		{
+			System.out.println("Client: UserName or PassWord was not found");
+		}
 		return ans;	
 	}
 	
@@ -216,7 +221,7 @@ public class Client {
 	}
 
 	//creating a new user. 
-	public void newUserloggingIn(String username, String password,boolean isAdmin) { 
+	public boolean newUserloggingIn(String username, String password,boolean isAdmin) { 
 		//public Person(String username, String password, Boolean isAdmin) {
 		//if let's check if someone is logged in
 		
@@ -268,7 +273,7 @@ public class Client {
 		}
 		
 		
-		
+		return !taken;
 	
 	}
 	
@@ -284,7 +289,7 @@ public class Client {
 			//if more than 2, it will overwrite the oldest
 			//this wont work because the date is in the name so, lets put the date somewhere else
 			
-			if (backupCounter > 2) {
+			if (backupCounter > 5) {
 				System.out.println("Client: Rewriting oldest Backups now");
 				backupCounter = 0;
 			}
@@ -311,7 +316,7 @@ public class Client {
 	
 //XML Saving and loading
 	// encode to XML file
-		protected void encodeToXML(String fileName)
+		public void encodeToXML(String fileName)
 		{
 			//lets try something real quick
 			final String SERIALIZED_FILE_NAME = fileName;
@@ -331,7 +336,7 @@ public class Client {
 		}
 
 		// decode from a XML file
-		protected static Client decodeFromXML(String fileName) //Static meaning call from the object or class to make the object or class.
+		public static Client decodeFromXML(String fileName) //Static meaning call from the object or class to make the object or class.
 		{
 
 			final String SERIALIZED_FILE_NAME = fileName;

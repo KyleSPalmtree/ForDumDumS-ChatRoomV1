@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_251" class="java.beans.XMLDecoder">
+ <object class="main.Client" id="Client0">
+  <void property="clientID">
+   <int>100000001</int>
+  </void>
+  <void property="currentChatRoom">
+   <object class="main.ChatRoom" id="ChatRoom0">
+    <void property="messages">
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>hello ?</string>
+       </void>
+       <void property="theUsername">
+        <string>ExampleUserA</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594680467252</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>hi all of you guys</string>
+       </void>
+       <void property="theUsername">
+        <string>ExampleUserA</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594680513300</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>one last thing before the next step</string>
+       </void>
+       <void property="theUsername">
+        <string>ExampleUserA</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594680570244</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>we have to make it so new chats can be made</string>
+       </void>
+       <void property="theUsername">
+        <string>ExampleUserA</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594680586756</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>aslo let&apos;s add a info text here</string>
+       </void>
+       <void property="theUsername">
+        <string>ExampleUserA</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594680603172</long>
+        </object>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="theChatRoomID">
+     <int>10807152</int>
+    </void>
+    <void property="theChatRoomName">
+     <string>TestChatRoomB</string>
+    </void>
+    <void property="theUsernameOfOwner">
+     <string>ExampleUserB</string>
+    </void>
+    <void property="thedate">
+     <object class="java.util.Date">
+      <long>1594504382244</long>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="localRooms">
+   <void method="add">
+    <object class="main.ChatRoom" id="ChatRoom1">
+     <void property="messages">
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>Message A from - ExampleUserA to Chatroom -TestChatRoomA</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594504382296</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>Message B from - ExampleUserA to Chatroom -TestChatRoomA</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594504382309</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>hey</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680376755</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>how is everyone doing</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680444547</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>anyone online</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680458107</long>
+         </object>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="theChatRoomID">
+      <int>15875178</int>
+     </void>
+     <void property="theChatRoomName">
+      <string>TestChatRoomA</string>
+     </void>
+     <void property="theUsernameOfOwner">
+      <string>ExampleUserA</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object idref="ChatRoom0"/>
+   </void>
+  </void>
+  <void property="localUsers">
+   <void method="add">
+    <object class="main.Person">
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382178</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person" id="Person0">
+     <void property="isAdmin">
+      <boolean>true</boolean>
+     </void>
+     <void property="password">
+      <string>PasswordA</string>
+     </void>
+     <void property="thePersonID">
+      <int>151008771</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleUserA</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PasswordB</string>
+     </void>
+     <void property="thePersonID">
+      <int>131452196</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleUserB</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PasswordC</string>
+     </void>
+     <void property="thePersonID">
+      <int>126169896</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleUserC</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PasswordD</string>
+     </void>
+     <void property="thePersonID">
+      <int>103294937</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleUserD</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PasswordE</string>
+     </void>
+     <void property="thePersonID">
+      <int>127322111</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleUserE</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PasswordF</string>
+     </void>
+     <void property="thePersonID">
+      <int>101721101</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleUserF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PassWord1</string>
+     </void>
+     <void property="thePersonID">
+      <int>125644206</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382360</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>NewTestUserA</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PassWord2</string>
+     </void>
+     <void property="thePersonID">
+      <int>175371515</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382377</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>NewTestUserB</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="isAdmin">
+      <boolean>true</boolean>
+     </void>
+     <void property="password">
+      <string>PassWord3</string>
+     </void>
+     <void property="thePersonID">
+      <int>192700771</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382397</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>NewTestUserC</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PassWord3</string>
+     </void>
+     <void property="thePersonID">
+      <int>106314513</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382415</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>NewTestUserD</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW</string>
+     </void>
+     <void property="thePersonID">
+      <int>184272397</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594676276071</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleNewUser</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW</string>
+     </void>
+     <void property="thePersonID">
+      <int>128627568</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594676534784</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleNewUserA</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="isAdmin">
+      <boolean>true</boolean>
+     </void>
+     <void property="password">
+      <string>kps</string>
+     </void>
+     <void property="thePersonID">
+      <int>193278990</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594680640717</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleNewUserB</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="loggedin">
+   <boolean>true</boolean>
+  </void>
+  <void property="loginPerson">
+   <object idref="Person0"/>
+  </void>
+  <void property="thedate">
+   <object class="java.util.Date">
+    <long>1594504382173</long>
+   </object>
+  </void>
+ </object>
+</java>

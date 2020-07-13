@@ -27,6 +27,7 @@ public class ChatRoom {
 		theChatRoomID = 00000;
 		theUsernameOfOwner = "default";
 		thedate = java.util.Calendar.getInstance().getTime();
+		lastupdate = java.util.Calendar.getInstance().getTime();
 	}
 	
 //Constructor Full
@@ -36,6 +37,7 @@ public class ChatRoom {
 		theChatRoomID = 10000000 + ((int)(Math.random() * 9999999));
 		theUsernameOfOwner = aUsername;
 		thedate = java.util.Calendar.getInstance().getTime();
+		lastupdate = java.util.Calendar.getInstance().getTime();
 	}
 	
 //object Methods
@@ -152,9 +154,9 @@ public class ChatRoom {
 // Basic toString
 	@Override
 	public String toString() {
-		return "ChatRoom [Number of messages = " + messages.size() + ", The ChatRoom Name=" + theChatRoomName + ", ChatRoomID="
-				+ theChatRoomID + ", The Username Of the Owner=" + theUsernameOfOwner + ", the date Made =" + thedate + "]";
-	}	
+		return (theChatRoomName + "\n \t Owner: " + theUsernameOfOwner +" | " + messages.size() + " Messages | Last Update: " + lastupdate);
+	}	// /n ,make a new line .... i think
+		// /t is for tab
 			
 // Basic Getters and Setters
 	public ArrayList<Message> getMessages() {

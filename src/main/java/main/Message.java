@@ -28,8 +28,7 @@ public class Message {
 // Basic toString	
 	@Override
 	public String toString() {
-		return "Message [thedate=" + thedate + ", theUsername=" + theUsername + ", theMessageContent="
-				+ theMessageContent + "]";
+		return "</"+ theUsername + "/> "+ theMessageContent;
 	}	
 // Basic Getters and Setters
 	public Date getThedate() {
