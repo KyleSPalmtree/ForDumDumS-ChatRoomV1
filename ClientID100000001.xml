@@ -10,14 +10,14 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string>hello ?</string>
+        <string>hello, everyone</string>
        </void>
        <void property="theUsername">
-        <string>ExampleUserA</string>
+        <string>SweetKristy</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680467252</long>
+         <long>1594853041581</long>
         </object>
        </void>
       </object>
@@ -25,14 +25,14 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string>hi all of you guys</string>
+        <string>Roll call</string>
        </void>
        <void property="theUsername">
-        <string>ExampleUserA</string>
+        <string>SweetKristy</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680513300</long>
+         <long>1594853047076</long>
         </object>
        </void>
       </object>
@@ -40,14 +40,14 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string>one last thing before the next step</string>
+        <string>hi im SweetKristy</string>
        </void>
        <void property="theUsername">
-        <string>ExampleUserA</string>
+        <string>SweetKristy</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680570244</long>
+         <long>1594853053161</long>
         </object>
        </void>
       </object>
@@ -55,14 +55,14 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string>we have to make it so new chats can be made</string>
+        <string>hi im KristyHoney</string>
        </void>
        <void property="theUsername">
-        <string>ExampleUserA</string>
+        <string>KristyHoney</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680586756</long>
+         <long>1594853059250</long>
         </object>
        </void>
       </object>
@@ -70,14 +70,14 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string>aslo let&apos;s add a info text here</string>
+        <string>hi im BubblySnowflake</string>
        </void>
        <void property="theUsername">
-        <string>ExampleUserA</string>
+        <string>BubblySnowflake</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680603172</long>
+         <long>1594853065958</long>
         </object>
        </void>
       </object>
@@ -85,14 +85,14 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string>you have done a good job, finish the job now</string>
+        <string>hi im abyKrisfly</string>
        </void>
        <void property="theUsername">
-        <string>ExampleNewUserB</string>
+        <string>abyKrisfly</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680715349</long>
+         <long>1594853071850</long>
         </object>
        </void>
       </object>
@@ -100,14 +100,14 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string></string>
+        <string>hi im blassmedal</string>
        </void>
        <void property="theUsername">
-        <string>ExampleNewUserB</string>
+        <string>blassmedal</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680747957</long>
+         <long>1594853077749</long>
         </object>
        </void>
       </object>
@@ -115,31 +115,166 @@
      <void method="add">
       <object class="main.Message">
        <void property="theMessageContent">
-        <string>good luck</string>
+        <string>hi im madelinecouch</string>
        </void>
        <void property="theUsername">
-        <string>ExampleNewUserB</string>
+        <string>madelinecouch</string>
        </void>
        <void property="thedate">
         <object class="java.util.Date">
-         <long>1594680755493</long>
+         <long>1594853084149</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>hi im divvychog</string>
+       </void>
+       <void property="theUsername">
+        <string>divvychog</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853089982</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>hi im licPrincess</string>
+       </void>
+       <void property="theUsername">
+        <string>licPrincess</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853096079</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>hi im tyButter</string>
+       </void>
+       <void property="theUsername">
+        <string>tyButter</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853101653</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>hi im FairyPrince</string>
+       </void>
+       <void property="theUsername">
+        <string>FairyPrince</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853107731</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>I&apos;m gald everyone is here, lets get started</string>
+       </void>
+       <void property="theUsername">
+        <string>king</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853115418</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>I agree</string>
+       </void>
+       <void property="theUsername">
+        <string>why</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853120054</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>Lets start at step 0, is everyone ready ... </string>
+       </void>
+       <void property="theUsername">
+        <string>king</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853127806</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>I&apos;d Like to hope so</string>
+       </void>
+       <void property="theUsername">
+        <string>why</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853133409</long>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="main.Message">
+       <void property="theMessageContent">
+        <string>ok. it&apos;s time ... to make a quick chat room app for dum dums</string>
+       </void>
+       <void property="theUsername">
+        <string>king</string>
+       </void>
+       <void property="thedate">
+        <object class="java.util.Date">
+         <long>1594853142479</long>
         </object>
        </void>
       </object>
      </void>
     </void>
     <void property="theChatRoomID">
-     <int>10807152</int>
+     <int>10558247</int>
     </void>
     <void property="theChatRoomName">
-     <string>TestChatRoomB</string>
+     <string>The new way</string>
     </void>
     <void property="theUsernameOfOwner">
-     <string>ExampleUserB</string>
+     <string>king</string>
     </void>
     <void property="thedate">
      <object class="java.util.Date">
-      <long>1594504382244</long>
+      <long>1594853008654</long>
      </object>
     </void>
    </object>
@@ -223,6 +358,21 @@
         </void>
        </object>
       </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>hey, whats up guys</string>
+        </void>
+        <void property="theUsername">
+         <string>king</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594841342913</long>
+         </object>
+        </void>
+       </object>
+      </void>
      </void>
      <void property="theChatRoomID">
       <int>15875178</int>
@@ -232,6 +382,191 @@
      </void>
      <void property="theUsernameOfOwner">
       <string>ExampleUserA</string>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594504382244</long>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.ChatRoom" id="ChatRoom2">
+     <void property="messages">
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>hello ?</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680467252</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>hi all of you guys</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680513300</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>one last thing before the next step</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680570244</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>we have to make it so new chats can be made</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680586756</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>aslo let&apos;s add a info text here</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleUserA</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680603172</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>you have done a good job, finish the job now</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleNewUserB</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680715349</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string></string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleNewUserB</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680747957</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>good luck</string>
+        </void>
+        <void property="theUsername">
+         <string>ExampleNewUserB</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594680755493</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>that was hard</string>
+        </void>
+        <void property="theUsername">
+         <string>why</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594841206923</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>it was hard to get it</string>
+        </void>
+        <void property="theUsername">
+         <string>why</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594841214265</long>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="main.Message">
+        <void property="theMessageContent">
+         <string>i know right, it was hard</string>
+        </void>
+        <void property="theUsername">
+         <string>king</string>
+        </void>
+        <void property="thedate">
+         <object class="java.util.Date">
+          <long>1594841355641</long>
+         </object>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="theChatRoomID">
+      <int>10807152</int>
+     </void>
+     <void property="theChatRoomName">
+      <string>TestChatRoomB</string>
+     </void>
+     <void property="theUsernameOfOwner">
+      <string>ExampleUserB</string>
      </void>
      <void property="thedate">
       <object class="java.util.Date">
@@ -477,7 +812,7 @@
     </object>
    </void>
    <void method="add">
-    <object class="main.Person" id="Person0">
+    <object class="main.Person">
      <void property="isAdmin">
       <boolean>true</boolean>
      </void>
@@ -494,6 +829,300 @@
      </void>
      <void property="username">
       <string>ExampleNewUserB</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PWPasswordNA</string>
+     </void>
+     <void property="thePersonID">
+      <int>106229177</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594769030227</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>ExampleNewNewUserAUser</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>Password</string>
+     </void>
+     <void property="thePersonID">
+      <int>126268651</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594769219039</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>NewUserB</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="isAdmin">
+      <boolean>true</boolean>
+     </void>
+     <void property="password">
+      <string>KPS</string>
+     </void>
+     <void property="thePersonID">
+      <int>122056622</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594841089363</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>KSP</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="isAdmin">
+      <boolean>true</boolean>
+     </void>
+     <void property="password">
+      <string>KPS2</string>
+     </void>
+     <void property="thePersonID">
+      <int>142867181</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594841144065</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>KSP2</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>why</string>
+     </void>
+     <void property="thePersonID">
+      <int>119021088</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594841187156</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>why</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person" id="Person0">
+     <void property="password">
+      <string>king</string>
+     </void>
+     <void property="thePersonID">
+      <int>143627191</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594841322234</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>king</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW0</string>
+     </void>
+     <void property="thePersonID">
+      <int>188979642</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853011569</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>SweetKristy</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW1</string>
+     </void>
+     <void property="thePersonID">
+      <int>135366779</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853014416</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>KristyHoney</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW2</string>
+     </void>
+     <void property="thePersonID">
+      <int>181824948</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853017554</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>BubblySnowflake</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW3</string>
+     </void>
+     <void property="thePersonID">
+      <int>143428419</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853020280</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>abyKrisfly</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW4</string>
+     </void>
+     <void property="thePersonID">
+      <int>178597989</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853022996</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>blassmedal</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW5</string>
+     </void>
+     <void property="thePersonID">
+      <int>114521799</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853025940</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>madelinecouch</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW6</string>
+     </void>
+     <void property="thePersonID">
+      <int>154089238</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853028544</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>divvychog</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW7</string>
+     </void>
+     <void property="thePersonID">
+      <int>106594014</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853031334</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>licPrincess</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW8</string>
+     </void>
+     <void property="thePersonID">
+      <int>145171330</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853033887</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>tyButter</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="main.Person">
+     <void property="password">
+      <string>PW9</string>
+     </void>
+     <void property="thePersonID">
+      <int>168858276</int>
+     </void>
+     <void property="thedate">
+      <object class="java.util.Date">
+       <long>1594853036670</long>
+      </object>
+     </void>
+     <void property="username">
+      <string>FairyPrince</string>
      </void>
     </object>
    </void>

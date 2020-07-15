@@ -104,8 +104,22 @@ public class MainViewController {
 		stage.setTitle("ChatRooms"); 
 		stage.setScene(s);
 		stage.show();
-		
-
+    }
+    
+    @FXML
+    void onClickLogOut(ActionEvent event) throws IOException {
+    		UserclientModel.logoutofClient();
+    	//Getting Login View and Controller
+    		FXMLLoader loader = new FXMLLoader();
+			loader.setLocation(Main.class.getResource("../views/LoginView.fxml")); 
+			BorderPane LoginView = loader.load(); //Get view
+			LoginViewController ControllerA = loader.getController(); //Get controller
+			ControllerA.setStage(stage);//the stage
+		//Loading up the main Scene
+			Scene s = new Scene(LoginView);
+			stage.setTitle("LOGIN"); 
+			stage.setScene(s);
+			stage.show();	//let see if that works
     }
     
     @FXML // fx:id="MainChatbutt"
@@ -129,9 +143,9 @@ public class MainViewController {
     @FXML // fx:id="MainNewUser"
     private Button MainNewUser; // Value injected by FXMLLoader
 
-   
+    @FXML // fx:id="MainLogOut"
+    private Button MainLogOut; // Value injected by FXMLLoader
     
-
     @FXML // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
         assert MainTitleText != null : "fx:id=\"MainTitleText\" was not injected: check your FXML file 'MainView.fxml'.";

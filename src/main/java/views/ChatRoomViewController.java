@@ -56,6 +56,7 @@ public class ChatRoomViewController {
 		MainViewController ControllerA = loader.getController(); //Get controller
 		ControllerA.setStage(stage);//the stage
 		ControllerA.setClient(UserclientModel);//the Client
+		ControllerA.setView(MainView);//the views
 	//Loading up the main Scene
 		Scene s = new Scene(MainView);
 		stage.setTitle("ChatRooms"); 

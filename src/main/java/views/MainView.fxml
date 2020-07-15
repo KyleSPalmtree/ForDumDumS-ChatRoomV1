@@ -44,6 +44,7 @@
       <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <items>
           <Button id="MainNewUser" fx:id="MainNewUser" mnemonicParsing="false" onAction="#onClickNewUser" text="NewUser" />
+            <Button id="MainLogOut" fx:id="MainLogOut" mnemonicParsing="false" onAction="#onClickLogOut" text="Log Out" />
         </items>
       </ToolBar>
    </bottom>
